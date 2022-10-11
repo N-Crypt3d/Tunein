@@ -8,6 +8,17 @@
         <entry key="..\:/Projects/app/src/main/res/layout/homepageactivity.xml" value="0.12082066869300911" />
         <entry key="..\:/Projects/app/src/main/res/layout/login_page.xml" value="0.24739583333333334" />
         <entry key="..\:/Projects/app/src/main/res/layout/signup_page.xml" value="0.264" />
+        <entry key="app/src/main/res/drawable/account_icon.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/music_icon.xml" value="0.19" />
+        <entry key="app/src/main/res/layout/activity_music_player.xml" value="0.2857789855072464" />
+        <entry key="app/src/main/res/layout/activity_music_player2.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/fragment_friends.xml" value="0.2857789855072464" />
+        <entry key="app/src/main/res/layout/fragment_music.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/layout/homepage.xml" value="0.2608695652173913" />
+        <entry key="app/src/main/res/layout/login_page.xml" value="0.2608695652173913" />
+        <entry key="app/src/main/res/layout/recycler_item.xml" value="0.18177083333333333" />
+        <entry key="app/src/main/res/menu/home_screen_bottom_navigation_bar.xml" value="0.35520833333333335" />
       </map>
     </option>
   </component>

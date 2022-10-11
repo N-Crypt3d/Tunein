@@ -4,75 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    >
 
-    android:background="@color/cardview_dark_background">
+    <FrameLayout
+        android:id="@+id/home_page_frame_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/partyButton"
-        android:layout_width="124dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="80dp"
+    </FrameLayout>
 
-        android:text="Party"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textSize="18sp"
-
-
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/home_page_bottom_navigation_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/playerButton"
-        android:layout_width="124dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="50dp"
-
-
-        android:text="Player"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textSize="18sp"
-
-
-        app:layout_constraintEnd_toEndOf="@+id/partyButton"
-        app:layout_constraintStart_toStartOf="@+id/partyButton"
-        app:layout_constraintTop_toBottomOf="@+id/partyButton" />
-
-    <Button
-        android:id="@+id/karaokeButton"
-        android:layout_width="124dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="50dp"
-
-
-        android:text="Karaoke"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textSize="18sp"
-
-
-        app:layout_constraintEnd_toEndOf="@+id/playerButton"
-        app:layout_constraintStart_toStartOf="@+id/playerButton"
-        app:layout_constraintTop_toBottomOf="@+id/playerButton" />
-
-    <Button
-        android:id="@+id/logoutButton"
-        android:layout_width="124dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="50dp"
-
-
-        android:text="Logout"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textSize="18sp"
-
-
-        app:layout_constraintEnd_toEndOf="@+id/karaokeButton"
-        app:layout_constraintStart_toStartOf="@+id/karaokeButton"
-        app:layout_constraintTop_toBottomOf="@+id/karaokeButton" />
+        app:menu="@menu/home_screen_bottom_navigation_bar"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
